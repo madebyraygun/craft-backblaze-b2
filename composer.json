@@ -37,7 +37,7 @@
         "symlink": true
       }
     }
-  ]
+  ],
   "autoload": {
     "psr-4": {
       "craft\\awss3\\": "src/"
