@@ -26,9 +26,18 @@
     "rss": "https://github.com/mattgrayisok/craft-backblaze-b2/commits/master.atom"
   },
   "require": {
-    "craftcms/cms": "^3.1.5",
-    "mhetreramesh/flysystem-backblaze": "^1.5.2"
+    "craftcms/cms": "^5.0.0",
+    "mhetreramesh/flysystem-backblaze": "dev-dev"
   },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/madebyraygun/flysystem-backblaze.git",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
   "autoload": {
     "psr-4": {
       "craft\\awss3\\": "src/"
